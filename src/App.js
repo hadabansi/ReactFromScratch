@@ -30,6 +30,11 @@ import Company from './components/Company';
 import ErrorBoundry from './components/ErrorBoundry';
 import HocDemo1 from './components/HocDemo1';
 import HocDemo2 from './components/HocDemo2';
+import ContextDemo from './components/Context/ContextDemo';
+import DemoUseState from './HookComponent/DemoUseState';
+import Demo2UseState from './HookComponent/Demo2UseState';
+import ObjectPassUseState from './HookComponent/ObjectPassUseState';
+import ArrayPassUseState from './HookComponent/ArrayPassUseState';
 function App() {
   return (
     <div className="App">
@@ -77,6 +82,11 @@ function App() {
         <HocDemo1 name="vishvas"/>
         <HocDemo2/>
         </>}/>
+        <Route path="/ContextDemo" exact element={<ContextDemo/>}/>
+        <Route path="/DemoUseState" exact element={<DemoUseState/>}/>
+        <Route path="/Demo2UseState" exact element={<Demo2UseState/>}/>
+        <Route path="/UseStateObject" exact element={<ObjectPassUseState/>}/>
+        <Route path="/UseStateArray" exact element={<ArrayPassUseState/>}/>
       </Routes>
       </Router>
     </div>
