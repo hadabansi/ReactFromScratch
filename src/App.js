@@ -40,6 +40,10 @@ import ComparisonCount from './components/ComparisonCount';
 import ConditionalRunUseEffect from './HookComponent/ConditionalRunUseEffect';
 import UnmountInUseEffect from './HookComponent/UnmountInUseEffect';
 import DemoUseContext from './HookComponent/ContextHook/DemoUseContext';
+import DemoUseReducer from './HookComponent/DemoUseReducer';
+import Demo2UseReducer from './HookComponent/Demo2UseReducer';
+import Demo3UseReducer from './HookComponent/Demo3UseReducer';
+import GlobalStateManagement from './HookComponent/UseReducerWithUseContext/GlobalStateManagement';
 function App() {
   return (
     <div className="App">
@@ -97,6 +101,10 @@ function App() {
         <Route path="/ConditionalyrunEffect" exact element={<ConditionalRunUseEffect/>}/>
         <Route path="/CleanupinUseEffect" exact element={<UnmountInUseEffect/>}/>
         <Route path="/DemoUseContext" exact element={<DemoUseContext/>}/>
+        <Route path="/DemoUseReducer" exact element={<DemoUseReducer/>}/>
+        <Route path="/Demo2UseReducer" exact element={<Demo2UseReducer/>}/>
+        <Route path="/Demo3UseReducer" exact element={<Demo3UseReducer/>}/>
+        <Route path="/Demo4UseReducer" exact element={<GlobalStateManagement/>}/>
       </Routes>
       </Router>
     </div>
