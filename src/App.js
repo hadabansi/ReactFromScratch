@@ -35,6 +35,10 @@ import DemoUseState from './HookComponent/DemoUseState';
 import Demo2UseState from './HookComponent/Demo2UseState';
 import ObjectPassUseState from './HookComponent/ObjectPassUseState';
 import ArrayPassUseState from './HookComponent/ArrayPassUseState';
+import DemoUseEffect from './HookComponent/DemoUseEffect';
+import ComparisonCount from './components/ComparisonCount';
+import ConditionalRunUseEffect from './HookComponent/ConditionalRunUseEffect';
+import UnmountInUseEffect from './HookComponent/UnmountInUseEffect';
 function App() {
   return (
     <div className="App">
@@ -87,6 +91,10 @@ function App() {
         <Route path="/Demo2UseState" exact element={<Demo2UseState/>}/>
         <Route path="/UseStateObject" exact element={<ObjectPassUseState/>}/>
         <Route path="/UseStateArray" exact element={<ArrayPassUseState/>}/>
+        <Route path="/DemoUseEffect" exact element={<DemoUseEffect/>}/>
+        <Route path="/ComparisonCount" exact element={<ComparisonCount/>}/>
+        <Route path="/ConditionalyrunEffect" exact element={<ConditionalRunUseEffect/>}/>
+        <Route path="/CleanupinUseEffect" exact element={<UnmountInUseEffect/>}/>
       </Routes>
       </Router>
     </div>

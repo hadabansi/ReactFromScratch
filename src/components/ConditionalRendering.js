@@ -6,7 +6,7 @@ export class ConditionalRendering extends Component {
   constructor() {
     super();
     this.state = {
-      isLoggedIn: false,
+      isLoggedIn: true,
     };
   }
   render() {
@@ -42,7 +42,7 @@ export class ConditionalRendering extends Component {
     // return this.state.isLoggedIn ? <h1>Hello From Logistic</h1> : <h1>Hello From Guest</h1>
 
     //Method-4
-    // return this.state.isLoggedIn && <h1>Hello From Logistic</h1>
+    //return this.state.isLoggedIn && <h1>Hello From Logistic</h1>
 
     return (
       <>

@@ -36,6 +36,11 @@ function Sidenav() {
     <Link to="/Demo2UseState">UseState Hook Demo2 prevCount</Link>
     <Link to="/UseStateObject">UseState Hook Passing Object</Link>
     <Link to="/UseStateArray">UseState Hook Passing Array</Link>
+    <Link to="/DemoUseEffect">UseEffect Hook Demo</Link>
+    <Link to="/ComparisonCount">Counter in Class</Link>
+    <Link to="/ConditionalyrunEffect">Conditionally Run useEffect</Link>
+    <Link to="/CleanupinUseEffect">Unmount in UseEffect</Link>
+    CleanupinUseEffect
     {/* Add more navigation links as needed */}
   </div>
   )
