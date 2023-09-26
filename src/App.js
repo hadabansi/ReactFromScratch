@@ -44,6 +44,7 @@ import DemoUseReducer from './HookComponent/DemoUseReducer';
 import Demo2UseReducer from './HookComponent/Demo2UseReducer';
 import Demo3UseReducer from './HookComponent/Demo3UseReducer';
 import GlobalStateManagement from './HookComponent/UseReducerWithUseContext/GlobalStateManagement';
+import ParentComponent from './HookComponent/UseCallbackDemo/ParentComponent';
 function App() {
   return (
     <div className="App">
@@ -105,6 +106,7 @@ function App() {
         <Route path="/Demo2UseReducer" exact element={<Demo2UseReducer/>}/>
         <Route path="/Demo3UseReducer" exact element={<Demo3UseReducer/>}/>
         <Route path="/Demo4UseReducer" exact element={<GlobalStateManagement/>}/>
+        <Route path="/DemoUseCallback" exact element={<ParentComponent/>}/>
       </Routes>
       </Router>
     </div>

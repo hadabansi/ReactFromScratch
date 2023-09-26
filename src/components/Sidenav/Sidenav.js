@@ -44,7 +44,7 @@ function Sidenav() {
     <Link to="/DemoUseReducer">useReducer Hook Simple State and Action</Link>
     <Link to="/Demo2UseReducer">useReducer Hook Complex State and Action </Link>
     <Link to="/Demo3UseReducer">Multiple useReducers</Link>
-    <Link to="/Demo4UseReducer">Global State(UseReducer+UseContext)</Link>
+    <Link to="/DemoUseCallback">UseCallback Hook Demo</Link>
     {/* Add more navigation links as needed */}
   </div>
   )
