@@ -40,7 +40,8 @@ function Sidenav() {
     <Link to="/ComparisonCount">Counter in Class</Link>
     <Link to="/ConditionalyrunEffect">Conditionally Run useEffect</Link>
     <Link to="/CleanupinUseEffect">Unmount in UseEffect</Link>
-    CleanupinUseEffect
+    <Link to="/DemoUseContext">UseContext Hook Demo</Link>
+    
     {/* Add more navigation links as needed */}
   </div>
   )

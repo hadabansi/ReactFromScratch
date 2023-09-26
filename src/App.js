@@ -39,6 +39,7 @@ import DemoUseEffect from './HookComponent/DemoUseEffect';
 import ComparisonCount from './components/ComparisonCount';
 import ConditionalRunUseEffect from './HookComponent/ConditionalRunUseEffect';
 import UnmountInUseEffect from './HookComponent/UnmountInUseEffect';
+import DemoUseContext from './HookComponent/ContextHook/DemoUseContext';
 function App() {
   return (
     <div className="App">
@@ -95,6 +96,7 @@ function App() {
         <Route path="/ComparisonCount" exact element={<ComparisonCount/>}/>
         <Route path="/ConditionalyrunEffect" exact element={<ConditionalRunUseEffect/>}/>
         <Route path="/CleanupinUseEffect" exact element={<UnmountInUseEffect/>}/>
+        <Route path="/DemoUseContext" exact element={<DemoUseContext/>}/>
       </Routes>
       </Router>
     </div>
