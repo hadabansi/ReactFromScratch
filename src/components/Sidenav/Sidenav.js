@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 function Sidenav() {
   return (
     <div className="sidenav">
+    <Link><h3>React Concept Basic To Advanced</h3></Link>
     <Link to="/">Function Component</Link>
     <Link to="/class">Class Component</Link>
     <Link to="/jsx">What is JSX?</Link>
@@ -31,7 +32,9 @@ function Sidenav() {
     <Link to="/ErrorBoundry">ErrorBoundry</Link>
     <Link to="/higherordercomponent">Higher Order component</Link>
     <Link to="/ContextDemo">Context</Link>
-    <Link>Hooks</Link>
+    <Link><h3>Hooks</h3></Link>
+    <Link to="/SimpleInterest">Use Effect Simple Interest</Link>
+    {/* <Link to="/FormHandlingdemo">UseReducer Form</Link> */}
     <Link to="/DemoUseState">UseState Hook Demo</Link>
     <Link to="/Demo2UseState">UseState Hook Demo2 prevCount</Link>
     <Link to="/UseStateObject">UseState Hook Passing Object</Link>
@@ -48,6 +51,11 @@ function Sidenav() {
     <Link to="/DemoUseMemo">UseMemo Hook Demo</Link>
     <Link to="/DemoUseRef">UseRef Hook Demo</Link>
     <Link to="/Demo2UseRef">UseRef Hook Demo2</Link>
+    <Link><h3>Redux</h3></Link>
+    <Link to="/Redux">Three Core Concept of Redux</Link>
+    <Link><h3>Logistic Demo</h3></Link>
+    <Link to="/ChildParentProps">Child and Parent Counter</Link>
+   
     {/* Add more navigation links as needed */}
   </div>
   )

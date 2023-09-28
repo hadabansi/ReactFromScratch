@@ -48,6 +48,15 @@ import ParentComponent from './HookComponent/UseCallbackDemo/ParentComponent';
 import UseMemoDemo from './HookComponent/UseMemoDemo';
 import UseRefDemo from './HookComponent/UseRefDemo';
 import UseRefDemo2 from './HookComponent/UseRefDemo2';
+import yourImage from './components/redux.png';
+import reduxp from './components/reduxp.png';
+import reduxp1 from './components/reduxp1.png';
+import reduxp2 from './components/reduxp2.png';
+import reduxp3 from './components/reduxp3.png';
+import SimpleInterest from './HookComponent/SimpleInterest';
+import ComplexForm from './HookComponent/UseReducerExample';
+import ParentCounter from './HookComponent/ParentCounter';
+
 function App() {
   return (
     <div className="App">
@@ -113,6 +122,16 @@ function App() {
         <Route path="/DemoUseMemo" exact element={<UseMemoDemo/>}/>
         <Route path="/DemoUseRef" exact element={<UseRefDemo/>}/>
         <Route path="/Demo2UseRef" exact element={<UseRefDemo2/>}/>
+        <Route path="/Redux" exact element={<>
+        <img src={yourImage} alt="Hello"></img>
+        <img src={reduxp} alt="Hello"></img>
+        <img src={reduxp1} alt="Hello"></img>
+        <img src={reduxp2} alt="Hello"></img>
+        <img src={reduxp3} alt="Hello"></img>
+        </>}/>
+        <Route path="/SimpleInterest" exact element={<SimpleInterest/>}/>
+        <Route path="/FormHandlingdemo" exact element={<ComplexForm/>}/>
+        <Route path="/ChildParentProps" exact element={<ParentCounter/>}/>
       </Routes>
       </Router>
     </div>
