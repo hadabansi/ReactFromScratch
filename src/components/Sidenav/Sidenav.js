@@ -55,6 +55,7 @@ function Sidenav() {
     <Link to="/Redux">Three Core Concept of Redux</Link>
     <Link><h3>Logistic Demo</h3></Link>
     <Link to="/ChildParentProps">Child and Parent Counter</Link>
+    <Link to="/LogisticDemo8">Logistic Demo 8</Link>
    
     {/* Add more navigation links as needed */}
   </div>

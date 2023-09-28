@@ -56,6 +56,7 @@ import reduxp3 from './components/reduxp3.png';
 import SimpleInterest from './HookComponent/SimpleInterest';
 import ComplexForm from './HookComponent/UseReducerExample';
 import ParentCounter from './HookComponent/ParentCounter';
+import LogisticDemo8 from './HookComponent/LogisticDemo8';
 
 function App() {
   return (
@@ -132,6 +133,7 @@ function App() {
         <Route path="/SimpleInterest" exact element={<SimpleInterest/>}/>
         <Route path="/FormHandlingdemo" exact element={<ComplexForm/>}/>
         <Route path="/ChildParentProps" exact element={<ParentCounter/>}/>
+        <Route path="/LogisticDemo8" exact element={<LogisticDemo8/>}/>
       </Routes>
       </Router>
     </div>

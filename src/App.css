@@ -48,6 +48,18 @@
  padding-right: 5px;
 }
 
+
+.countdivcss{
+ margin:auto;
+ margin-top: 20px;
+ background-color:black;
+ padding-top:5px;
+ color:white;
+ border-radius:5px;
+ width:70px;
+ height: 35px;
+ padding-right: 5px;
+}
 .container{
   display:flex;
   margin-top:15px;
