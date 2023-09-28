@@ -57,6 +57,12 @@ import SimpleInterest from './HookComponent/SimpleInterest';
 import ComplexForm from './HookComponent/UseReducerExample';
 import ParentCounter from './HookComponent/ParentCounter';
 import LogisticDemo8 from './HookComponent/LogisticDemo8';
+import LogisticDemo7 from './HookComponent/LogisticDemo7';
+import LogisticDemo6 from './HookComponent/LogisticDemo6';
+import LogisticDemo5 from './HookComponent/LogisticDemo5';
+import LogisticDemo4 from './HookComponent/LogisticDemo4';
+import LogisticDemo3 from './HookComponent/LogisticDemo3';
+import CompoundInterestCalculator from './HookComponent/CompoundInterestCalculator';
 
 function App() {
   return (
@@ -134,6 +140,12 @@ function App() {
         <Route path="/FormHandlingdemo" exact element={<ComplexForm/>}/>
         <Route path="/ChildParentProps" exact element={<ParentCounter/>}/>
         <Route path="/LogisticDemo8" exact element={<LogisticDemo8/>}/>
+        <Route path="/LogisticDemo7" exact element={<LogisticDemo7/>}/>
+        <Route path="/LogisticDemo6" exact element={<LogisticDemo6/>}/>
+        <Route path="/LogisticDemo5" exact element={<LogisticDemo5/>}/>
+        <Route path="/LogisticDemo4" exact element={<LogisticDemo4/>}/>
+        <Route path="/LogisticDemo3" exact element={<LogisticDemo3/>}/>
+        <Route path="/LogisticDemo" exact element={<CompoundInterestCalculator/>}/>
       </Routes>
       </Router>
     </div>

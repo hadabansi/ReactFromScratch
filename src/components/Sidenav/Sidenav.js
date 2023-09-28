@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Sidenav() {
+function  Sidenav() {
   return (
     <div className="sidenav">
     <Link><h3>React Concept Basic To Advanced</h3></Link>
@@ -56,7 +56,12 @@ function Sidenav() {
     <Link><h3>Logistic Demo</h3></Link>
     <Link to="/ChildParentProps">Child and Parent Counter</Link>
     <Link to="/LogisticDemo8">Logistic Demo 8</Link>
-   
+    <Link to="/LogisticDemo7">Logistic Demo 7</Link>
+    <Link to="/LogisticDemo6">Logistic Demo 6</Link>
+    <Link to="/LogisticDemo5">Logistic Demo 5</Link>
+    <Link to="/LogisticDemo4">Logistic Demo 4</Link>
+    <Link to="/LogisticDemo3">Logistic Demo 3</Link>
+    <Link to="/LogisticDemo">Logistic Demo 3</Link>
     {/* Add more navigation links as needed */}
   </div>
   )
