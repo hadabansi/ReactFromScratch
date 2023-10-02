@@ -51,8 +51,6 @@ function  Sidenav() {
     <Link to="/DemoUseMemo">UseMemo Hook Demo</Link>
     <Link to="/DemoUseRef">UseRef Hook Demo</Link>
     <Link to="/Demo2UseRef">UseRef Hook Demo2</Link>
-    <Link><h3>Redux</h3></Link>
-    <Link to="/Redux">Three Core Concept of Redux</Link>
     <Link><h3>Logistic Demo</h3></Link>
     <Link to="/ChildParentProps">Child and Parent Counter</Link>
     <Link to="/LogisticDemo8">Logistic Demo 8</Link>
@@ -61,7 +59,13 @@ function  Sidenav() {
     <Link to="/LogisticDemo5">Logistic Demo 5</Link>
     <Link to="/LogisticDemo4">Logistic Demo 4</Link>
     <Link to="/LogisticDemo3">Logistic Demo 3</Link>
-    <Link to="/LogisticDemo">Logistic Demo 3</Link>
+    <Link><h3>Redux</h3></Link>
+    <Link to="/Redux">Three Core Concept of Redux</Link>
+    <Link to="/ReduxDemo">Redux Demo</Link>
+    <Link to="/ReduxHookDemo">Redux Hook Demo</Link>
+    <Link to="/ReduxDemo2">Redux Demo2</Link>
+    <Link to="/PayloadDemo">PayloadDemo</Link>
+    <Link to="/AsyncDemo">AsyncDemo</Link>
     {/* Add more navigation links as needed */}
   </div>
   )

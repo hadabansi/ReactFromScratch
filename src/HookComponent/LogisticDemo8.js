@@ -22,9 +22,7 @@ const incfunc=()=>{
 const decfunc=()=>{
     dispatch('Decrement');
 }
-const resetfunc=()=>{
-    dispatch('Reset');
-}
+
   return (
     <div className='countdivcss'>
         <button onClick={incfunc}>+</button>

@@ -62,11 +62,17 @@ import LogisticDemo6 from './HookComponent/LogisticDemo6';
 import LogisticDemo5 from './HookComponent/LogisticDemo5';
 import LogisticDemo4 from './HookComponent/LogisticDemo4';
 import LogisticDemo3 from './HookComponent/LogisticDemo3';
-import CompoundInterestCalculator from './HookComponent/CompoundInterestCalculator';
-
+import ReduxDemo from './ReduxComponents/cakeDemo/ReduxDemo';
+import { Provider } from 'react-redux';
+import { store } from './ReduxComponents/Store';
+import ReduxHookDemo from './ReduxComponents/cakeDemo/ReduxHookDemo';
+import ReduxDemo2 from './ReduxComponents/IceCreamDemo/ReduxDemo2';
+import PayloadDemo from './ReduxComponents/IceCreamDemo/PayloadDemo';
+import UserContainer from './ReduxComponents/AsyncDemo/UserContainer';
 function App() {
   return (
     <div className="App">
+      <Provider store={store}>
       <Router>
       <Sidenav />   
       <Routes>
@@ -145,9 +151,14 @@ function App() {
         <Route path="/LogisticDemo5" exact element={<LogisticDemo5/>}/>
         <Route path="/LogisticDemo4" exact element={<LogisticDemo4/>}/>
         <Route path="/LogisticDemo3" exact element={<LogisticDemo3/>}/>
-        <Route path="/LogisticDemo" exact element={<CompoundInterestCalculator/>}/>
+        <Route path="/ReduxDemo" exact element={<ReduxDemo/>}/>
+        <Route path="/ReduxHookDemo" exact element={<ReduxHookDemo/>}/>
+        <Route path="/ReduxDemo2" exact element={<ReduxDemo2/>}/>
+        <Route path="/PayloadDemo" exact element={<PayloadDemo/>}/>
+        <Route path="/AsyncDemo" exact element={<UserContainer/>}/>
       </Routes>
       </Router>
+    </Provider>
     </div>
   );
 }
