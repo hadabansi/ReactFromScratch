@@ -18,6 +18,7 @@ function UserContainer({userData,fetchUsers}) {
   )
 }
 const mapStateToProps=state=>{
+    console.log(state.user.users);
     return{
         userData:state.user
     }

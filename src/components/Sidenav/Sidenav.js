@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 function  Sidenav() {
   return (
+
     <div className="sidenav">
     <Link><h3>React Concept Basic To Advanced</h3></Link>
     <Link to="/">Function Component</Link>
@@ -34,7 +36,6 @@ function  Sidenav() {
     <Link to="/ContextDemo">Context</Link>
     <Link><h3>Hooks</h3></Link>
     <Link to="/SimpleInterest">Use Effect Simple Interest</Link>
-    {/* <Link to="/FormHandlingdemo">UseReducer Form</Link> */}
     <Link to="/DemoUseState">UseState Hook Demo</Link>
     <Link to="/Demo2UseState">UseState Hook Demo2 prevCount</Link>
     <Link to="/UseStateObject">UseState Hook Passing Object</Link>
@@ -66,7 +67,12 @@ function  Sidenav() {
     <Link to="/ReduxDemo2">Redux Demo2</Link>
     <Link to="/PayloadDemo">PayloadDemo</Link>
     <Link to="/AsyncDemo">AsyncDemo</Link>
-    {/* Add more navigation links as needed */}
+    <Link><h3>Redux Toolkit </h3></Link>
+    <Link to="/ReduxToolkitDemoCake">Redux Toolkit Demo of Ordering and Restocking cake</Link>
+    <Link to="/ReduxToolkitDemoIceCream">Redux Toolkit Ordering and Restocking IceCreams</Link>
+    <Link to="/ReduxToolkitDemoAsync">Redux Toolkit AsyncData</Link>
+    <Link to="/ReduxToolkitParentChild">Redux Toolkit ParentChild Demo</Link>
+    <Link to="/logout">Logout</Link>
   </div>
   )
 }
