@@ -73,6 +73,7 @@ import CakeView from './ReduxToolkitComponent/features/cake/CakeView';
 import IceCreamView from './ReduxToolkitComponent/features/icecream/IceCreamView';
 import UserView from './ReduxToolkitComponent/features/user/UserView';
 import Parent from './ReduxToolkitComponent/features/demo/Parent';
+import Parent16 from './ReduxToolkitComponent/features/demo16/Parent16';
 import Login from './authentication/Login';
 import {useEffect} from 'react';
 import axios from 'axios';
@@ -183,6 +184,7 @@ function App() {
                     <Route path="/ReduxToolkitDemoIceCream" exact element={<IceCreamView/>}  />
                     <Route path="/ReduxToolkitDemoAsync" exact element={<UserView/>}  />
                     <Route path="/ReduxToolkitParentChild" exact element={<Parent/>}  />
+                    <Route path="/ReduxToolkitParentChildDemo16" exact element={<Parent16/>}  />
                 </Routes>
               </>} />}/>
       </Routes>

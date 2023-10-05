@@ -72,6 +72,7 @@ function  Sidenav() {
     <Link to="/ReduxToolkitDemoIceCream">Redux Toolkit Ordering and Restocking IceCreams</Link>
     <Link to="/ReduxToolkitDemoAsync">Redux Toolkit AsyncData</Link>
     <Link to="/ReduxToolkitParentChild">Redux Toolkit ParentChild Demo</Link>
+    <Link to="/ReduxToolkitParentChildDemo16">Redux Toolkit ParentChild Demo 16</Link>
     <Link to="/logout">Logout</Link>
   </div>
   )

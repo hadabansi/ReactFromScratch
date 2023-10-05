@@ -11,6 +11,9 @@ import cakeSlice from "../ReduxToolkitComponent/features/cake/cakeSlice";
 import IceCreamSlice from "../ReduxToolkitComponent/features/icecream/IceCreamSlice";
 import UserSlice from "../ReduxToolkitComponent/features/user/UserSlice";
 import counterSlice from "../ReduxToolkitComponent/features/demo/counterSlice";
+import dropdownSlice from "../ReduxToolkitComponent/features/demo16/dropdownSlice";
+import inputSlice from "../ReduxToolkitComponent/features/demo16/inputSlice";
+import checkboxSlice from "../ReduxToolkitComponent/features/demo16/checkboxSlice";
 
  const store=configureStore({
     reducer:{
@@ -18,6 +21,9 @@ import counterSlice from "../ReduxToolkitComponent/features/demo/counterSlice";
         icecream:IceCreamSlice,
         counter:counterSlice,
         user:UserSlice,
+        dropdown:dropdownSlice,
+        inputval:inputSlice,
+        checkboxval:checkboxSlice
     }
 })
 

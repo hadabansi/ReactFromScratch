@@ -5,6 +5,7 @@ import Child from './Child';
 
 function Parent() {
   const count = useSelector((state) => state.counter.count);
+  console.log(count);
   const dispatch = useDispatch();
 
   const incrementCount = () => {
